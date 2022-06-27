@@ -18,7 +18,7 @@
 // let K = 1;
 // let javob = K % 7
 // console.log("0-ya, 1-du, 2-se, 3-cho, 4-pa, 5-ju, 6-sha");
-// console.log((javob + 3) % 7);
+// console.log((javob + 3) % 7 );
 
 // 26-misol
 // let K = 9;
@@ -27,7 +27,14 @@
 // console.log("kiritilgan son " + K + ", " + (javob % 7 + 1) + " raqamini yuqoridan qarab olishiz mumkin");
 
 // 27-misol
-let K = 1;
+// let K = 10;
+// let javob = K % 7
+// console.log("1-du, 2-se, 3-cho, 4-pa, 5-ju, 6-sha, 7-ya");
+// console.log("kiritilgan son " + K + ", " + ((javob + 5) % 7 + 1) + " raqamini yuqoridan qarab olishiz mumkin");
+
+// 28-misol
+let K = 10;
+let n = 5
 let javob = K % 7
 console.log("1-du, 2-se, 3-cho, 4-pa, 5-ju, 6-sha, 7-ya");
-console.log("kiritilgan son " + K + ", " + ((javob + 7) % 7 - 1) + " raqamini yuqoridan qarab olishiz mumkin");
+console.log("kiritilgan son " + K + ", " + ((javob + n-2) % 7 + 1) + " raqamini yuqoridan qarab olishiz mumkin");
